@@ -11,6 +11,9 @@ PORTD	KEYWORD1
 DDRB	KEYWORD1
 DDRC	KEYWORD1
 DDRD	KEYWORD1
+PINB	KEYWORD1
+PINC	KEYWORD1
+PIND	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################

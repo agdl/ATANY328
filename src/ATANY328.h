@@ -88,6 +88,14 @@
     pinMode(arduinoPin, INPUT);                                    \
   }
 
+#define PINB (readPINB())
+#define PINC (readPINC())
+#define PIND (readPIND())
+
+uint8_t readPINB();
+uint8_t readPINC();
+uint8_t readPIND();
+
 /** DDR Classes **/
 class DDRBClass {
   public:

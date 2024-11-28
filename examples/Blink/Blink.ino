@@ -6,8 +6,8 @@ void setup() {
 
 void loop() {
   PORTB |= (1 << 5); // Turn 13 on
-  delay(70);
+  delay(1000);
 
   PORTB &= ~(1 << 5); // Turn 13 off
-  delay(70);
+  delay(1000);
 }
